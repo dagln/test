@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Icons';
+    src: url("..//fonts/icons.eot");
+    src: url("..//fonts/icons.eot?#iefix") format('embedded-opentype');
+    /* , url(".//fonts/icons.woff2") format('woff2'), url(".//fonts/icons.woff") format('woff'), url(".//fonts/icons.ttf") format('truetype'), url(".//fonts/icons.svg#icons") format('svg'); */
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-decoration: inherit;
+    text-transform: none;
+}
+
+@font-face {
+    font-family: 'outline-icons-font';
+    src: url("..//fonts/outline-icons.eot");
+    src: url("..//fonts/outline-icons.eot?#iefix") format('embedded-opentype');
+    src: url("..//fonts/outline-icons.woff2") format('woff2'), url("..//fonts/outline-icons.woff") format('woff'), url("..//fonts/outline-icons.ttf") format('truetype'), url("..//fonts/outline-icons.svg#icons") format('svg');
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-decoration: inherit;
+    text-transform: none;
+}
+
+.inred {
+    height: 0px;
+    padding-top: 10px;
+    color: cornflowerblue;
+}
+
+.inicon::before {
+    font-family: Icons;
+    content: "\f1ea";
+}
+
+.icon-text {
+    font-family: outline-icons-font;
+}
+
+.icon-text::before {
+    content: "\f0c5";
+}
